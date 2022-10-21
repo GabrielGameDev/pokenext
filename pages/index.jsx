@@ -26,9 +26,12 @@ export async function getStaticProps(){
 }
 
 export default function Home({pokemons}) {
-  console.log(pokemons)
+  //console.log(pokemons)
+  
+
   return (
    <>
+    
     <div className={styles.title_container}>
     <h1 className={styles.title}>Poke<span>Next</span></h1>
     <Image src="/images/pokeball.png"
